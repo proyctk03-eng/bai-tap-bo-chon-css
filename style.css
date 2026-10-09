@@ -1,0 +1,55 @@
+/* Element selector - đổi màu nền trang */
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* ID selector - căn giữa tiêu đề */
+#main-title {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Class selector - định dạng đoạn văn */
+.intro {
+    color: #34495e;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Class selector - định dạng danh sách */
+.hobby-list {
+    list-style-type: square;
+    color: #2980b9;
+}
+
+/* Grouping selector + pseudo-class nth-child */
+.hobby-list li:nth-child(1) {
+    color: #e74c3c;
+}
+
+.hobby-list li:nth-child(2) {
+    color: #27ae60;
+}
+
+.hobby-list li:nth-child(3) {
+    color: #8e44ad;
+}
+
+/* ID selector + pseudo-class hover cho nút bấm */
+#btn-click {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#btn-click:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
